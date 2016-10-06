@@ -9,9 +9,9 @@
 namespace CodeOrders\V1\Rest\Users;
 
 
-use Zend\Stdlib\Hydrator\HydrationInterface;
+use Zend\Hydrator\HydratorInterface;
 
-class UsersMapper extends UsersEntity implements HydrationInterface
+class UsersMapper extends UsersEntity implements HydratorInterface
 {
     /**
      * Extract values from an object
